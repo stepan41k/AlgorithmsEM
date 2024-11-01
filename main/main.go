@@ -12,5 +12,7 @@ type User struct {
 
 func main() {
 	
-	fmt.Println("hello, git")
+	newUser := User{age: 10, firstname: "Petya", lastname: "Ivamov"}
+	fmt.Println(newUser)
+
 }
