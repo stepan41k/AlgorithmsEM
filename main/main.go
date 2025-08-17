@@ -1,18 +1,5 @@
-package main 
-
-import (
-	"fmt"
-)
-
-type User struct {
-	age int
-	firstname string
-	lastname string
-}
+package main
 
 func main() {
-	
-	newUser := User{age: 10, firstname: "Petya", lastname: "Ivamov"}
-	fmt.Println(newUser)
-
+	merge([][]int{{2,6}, {1,3},{15,18}, {8,10}})
 }
